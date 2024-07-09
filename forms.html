@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div">
+      <h3>
+        <strong><u>Forms</u></strong>
+      </h3>
+      <form>
+        <fieldset>
+          <legend>personal details</legend>
+          <div style="display: inline-block">
+            <label>Name</label><br />
+            <input id="FirstName" />&nbsp;&nbsp;&nbsp;<input
+              id="MidName"
+            />&nbsp;&nbsp;&nbsp;<input id="lastName" /><br />
+            <label id="firstName" for="FirstName">First Name</label>
+          <label id="middleName" for="MidName">Middle Name </label
+            ><label for="lastName">Last Name</label>
+          </div>
+          <br />
+          <div>
+            <label class="label" for="age">Age</label
+            ><input type="number" id="age" /><br />
+            <label class="label" for="phoneNo">Phone No</label
+            ><input type="number" id="phoneNo" /><br />
+            <label class="label">Gender</label>
+            <select>
+               <option></option>
+               <option>Male</option>
+               <option>Female</option>
+              </select><br />
+              <label class="label">class</label>
+              <select>
+                <option></option>
+                  <optgroup label="primary">
+                      <option>1<sub>st</sub></option>
+                  <option>2<sup>nd</sup></option>
+                  <option>3rd</option>
+                  <option>4th</option>
+                  <option>5th</option>
+                  </optgroup>
+                  <optgroup label="secondary">
+                  <option>6th</option>
+                  <option>7th</option>
+                  <option>8th</option>
+                  <option>9th</option>
+                  <option>10th</option>
+                  </optgroup>
+              </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Address</legend>
+          <label for="address" class="label">Address</label><textarea id="address"></textarea><br>
+          <label class="label">state</label> <input list="states"/>
+          <datalist id="states">
+            <option>TG</option>
+            <option>ap</option>
+          </datalist>
+        </fieldset>
+      </form>
+      <button type="button">button</button>
+      <button type="reset"> Reset</button>
+      <button type="submit">submit</button>
+    </div>
+  </body>
+</html>

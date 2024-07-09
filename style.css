@@ -1,0 +1,21 @@
+.div{
+    border: 5px solid black;
+    padding: 20px;
+}
+.paddingFirstname{
+    padding-right: 108px;
+}
+.paddingCity{
+    padding-right: 160px;
+}
+.label{
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+}
+#firstName{
+    padding-right: 110px;
+}
+#middleName{
+    padding-right: 90px;
+}
